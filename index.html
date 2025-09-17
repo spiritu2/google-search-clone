@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Google Search (clone)</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="header">
+      <nav class="top-links">
+        <a href="images.html">Images</a>
+        <a href="advanced.html">Advanced Search</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <div class="logo">Google</div>
+
+      <form class="search-box" action="https://google.com/search" method="get">
+        <input
+          class="search-field"
+          type="text"
+          name="q"
+          placeholder="Search Google or type a URL"
+          aria-label="Search"
+        >
+
+        <div class="controls">
+          <input class="btn" type="submit" value="Google Search">
+          <input class="btn" type="submit" name="btnI" value="I'm Feeling Lucky!">
+        </div>
+      </form>
+    </main>
+
+    <div class="footer">
+      This is a simple educational clone - results load from google.com
+    </div>
+  </body>
+</html>

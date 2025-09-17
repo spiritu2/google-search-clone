@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="top-links">
+        <a href="index.html">Google Search</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <div class="logo">Advanced Search</div>
+
+      <form action="https://www.google.com/search" method="get" class="advanced-form">
+        <label for="all">Find pages with… "all these words:"</label>
+        <input id="all" type="text" name="as_q">
+
+        <label for="exact">Find pages with… "this exact word or phrase:"</label>
+        <input id="exact" type="text" name="as_epq">
+
+        <label for="any">Find pages with… "any of these words:"</label>
+        <input id="any" type="text" name="as_oq">
+
+        <label for="none">Find pages with… "none of these words:"</label>
+        <input id="none" type="text" name="as_eq">
+
+        <div class="controls">
+          <input class="btn btn-primary" type="submit" value="Advanced Search">
+        </div>
+      </form>
+    </main>
+
+    <footer class="footer">
+      Google Advanced Search Clone for Study
+    </footer>
+  </body>
+</html>

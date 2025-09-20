@@ -1,37 +1,24 @@
-Google Search Clone
+# Google Search Clone
 
-This project is a front-end clone of Google’s search pages, developed as part of Harvard University’s CS50 Web Programming with Python and JavaScript course.
+This project is a **simple front-end clone** of Google’s search pages, built for the **CS50 Web Programming with Python and JavaScript** course (Harvard).
 
-The goal of the assignment is to practice HTML and CSS by replicating the layout and behavior of:
+The goal was to practice **HTML and CSS** by recreating the layout and style of:
+- **Google Search** (`index.html`)  
+- **Google Images** (`images.html`)  
+- **Google Advanced Search** (`advanced.html`)  
 
-Google Search
+All search results are fetched directly from **google.com**, so this is only a **UI clone for learning purposes**.
 
-Google Images
+---
 
-Google Advanced Search
+## 🚀 How to Run
+1. Download or clone this repository.  
+2. Open `index.html` in your browser.  
 
-All search results are loaded directly from google.com, making this purely a UI clone for study purposes.
+No server or installation required.  
 
-📚 Features
+---
 
-Search Page (index.html)
-
-Google-style search bar.
-
-Two buttons: Google Search and I’m Feeling Lucky.
-
-Navigation links to Images and Advanced Search.
-
-Images Search Page (images.html)
-
-Dedicated input for image queries.
-
-Button to search Google Images.
-
-Advanced Search Page (advanced.html)
-
-Inputs for advanced query parameters (all words, exact phrase, any words, none).
-
-Styled form with clear labels.
-
-Responsive design with custom CSS (styles.css).
+## 🛠 Technologies
+- HTML5  
+- CSS3 (Flexbox, responsive design)  
